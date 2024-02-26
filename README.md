@@ -8,6 +8,6 @@ Returns location data from image and video files in DMS format.
   - pillow==10.2.0
   - pillow_heif==0.15.0
 ## Considerations:
-- Tested with MOV, JPEG, and HEIF files.
+- Tested with MOV, JPEG, and HEIC files.
 - Not all video formats will use the same location tags, so video formats other than MOV are not currently supported.
 - Expects an `assets` folder containing the target files within the project's parent directory (`.../exif_geomapper/assets`). 
